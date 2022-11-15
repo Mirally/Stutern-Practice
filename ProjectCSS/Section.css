@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comment {
+    font-size: 18px;
+}
+
+section {
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    border-radius: 6px;
+    box-shadow: 8px, 4px, 15px rgb(179, 204, 154);
+}
+
+.row {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em
+}
+
+
+.same {
+    font-size: 14px;
+}
+
+.first {
+    color: green;
+}
+
+.second {
+    color: red;
+}
+
+.third {
+    color: blue;
+}
+
